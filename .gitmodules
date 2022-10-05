@@ -1,3 +1,18 @@
 [submodule "vuejs/vuejs-test"]
 	path = vuejs/vuejs-test
 	url = https://github.com/khaosdoctor/vuejs-test
+[submodule "deno/examples/hello-world"]
+	path = deno/examples/hello-world
+	url = https://github.com/khaosdoctor/deno-hello-world
+[submodule "deno/examples/deno-http-request"]
+	path = deno/examples/deno-http-request
+	url = https://github.com/khaosdoctor/deno-http-request
+[submodule "deno/examples/deno-read-file"]
+	path = deno/examples/deno-read-file
+	url = https://github.com/khaosdoctor/deno-read-file
+[submodule "deno/examples/deno-tcp-server"]
+	path = deno/examples/deno-tcp-server
+	url = https://github.com/khaosdoctor/deno-tcp-server
+[submodule "electron/electron-learn-project"]
+	path = electron/electron-learn-project
+	url = https://github.com/khaosdoctor/electron-learn-project

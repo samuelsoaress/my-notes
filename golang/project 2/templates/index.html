@@ -1,0 +1,36 @@
+{{ define "Index" }}
+{{template "_head"}}
+
+<body>
+  <section class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Descrição</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{range .}}
+        <tr>
+          <td>{{.Name}}</td>
+          <td>{{.Description}}</td>
+          <td>{{.Price}}</td>
+          <td>{{.Quantity}}</td>
+          <td><a href="/delete?id={{.ID}}">Remover produto</a></td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="button">
+    <a href="/new" class="btn btn-primary mb-2">Novo Produto</a>
+  </section>
+
+</body>
+
+</html>
+{{end}}
